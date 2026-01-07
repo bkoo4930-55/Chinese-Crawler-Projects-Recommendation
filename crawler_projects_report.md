@@ -4,9 +4,9 @@
 
 ## 1. 网页自动化与轻量级框架
 
-对于需要处理复杂动态渲染或对抗反爬机制的任务，**DrissionPage** 是近年来备受推崇的选择。它不仅是一个简单的爬虫库，更是一个将浏览器自动化与高性能数据包收发完美结合的综合性工具。
+对于需要处理复杂动态渲染或对抗反爬机制的任务，**[DrissionPage](https://github.com/g1879/DrissionPage)** 是近年来备受推崇的选择。它不仅是一个简单的爬虫库，更是一个将浏览器自动化与高性能数据包收发完美结合的综合性工具。
 
-> **DrissionPage** 采用自研内核，彻底摆脱了传统 Selenium 对 WebDriver 的依赖，从而有效地规避了许多网站针对自动化工具的特征检测。其语法设计极其精简，能够以极少的代码量完成复杂的页面交互与数据提取。
+> **[DrissionPage](https://github.com/g1879/DrissionPage)** 采用自研内核，彻底摆脱了传统 Selenium 对 WebDriver 的依赖，从而有效地规避了许多网站针对自动化工具的特征检测。其语法设计极其精简，能够以极少的代码量完成复杂的页面交互与数据提取。
 
 下表对比了 DrissionPage 与传统工具的主要差异：
 
@@ -19,23 +19,23 @@
 
 ## 2. 企业级专业爬虫框架
 
-当任务规模上升到千万级甚至亿级数据量时，开发者通常需要一个具备完善调度、监控和报警机制的框架。**Feapder** 和 **WebMagic** 分别是 Python 和 Java 领域的佼佼者。
+当任务规模上升到千万级甚至亿级数据量时，开发者通常需要一个具备完善调度、监控和报警机制的框架。**[Feapder](https://github.com/Boris-code/feapder)** 和 **[WebMagic](https://github.com/code4craft/webmagic)** 分别是 Python 和 Java 领域的佼佼者。
 
-**Feapder** 是一个专为大规模数据采集设计的 Python 框架。它在设计上参考了 Scrapy 的优点，但针对国内开发者的实际痛点进行了大量优化。它内置了 AirSpider（轻量级）、Spider（分布式）和 BatchSpider（批次化）三种模式，能够灵活应对从简单抓取到复杂企业级生产的各类场景。
+**[Feapder](https://github.com/Boris-code/feapder)** 是一个专为大规模数据采集设计的 Python 框架。它在设计上参考了 Scrapy 的优点，但针对国内开发者的实际痛点进行了大量优化。它内置了 AirSpider（轻量级）、Spider（分布式）和 BatchSpider（批次化）三种模式，能够灵活应对从简单抓取到复杂企业级生产的各类场景。
 
-**WebMagic** 则深耕 Java 社区多年，以其优雅的垂直架构和极高的扩展性著称。它将爬虫逻辑拆分为 Downloader、PageProcessor、Scheduler 和 Pipeline 四大组件，使得开发者可以像搭积木一样快速构建自己的爬虫系统。
+**[WebMagic](https://github.com/code4craft/webmagic)** 则深耕 Java 社区多年，以其优雅的垂直架构和极高的扩展性著称。它将爬虫逻辑拆分为 Downloader、PageProcessor、Scheduler 和 Pipeline 四大组件，使得开发者可以像搭积木一样快速构建自己的爬虫系统。
 
 ## 3. 社交媒体专项采集工具
 
-针对特定平台的深度适配是爬虫开发中的难点。**MediaCrawler** 是目前 GitHub 上针对中文社交媒体平台最受欢迎的专项工具之一。
+针对特定平台的深度适配是爬虫开发中的难点。**[MediaCrawler](https://github.com/NanmiCoder/MediaCrawler)** 是目前 GitHub 上针对中文社交媒体平台最受欢迎的专项工具之一。
 
 该项目深度集成了对**小红书、抖音、B站、微博**等主流平台的采集逻辑。它不仅解决了这些平台复杂的登录验证（如二维码登录、Cookie 维持）问题，还针对各平台的反爬策略进行了实时更新。对于需要进行舆情监控、短视频趋势分析或社交媒体研究的用户来说，MediaCrawler 提供了近乎“开箱即用”的体验。
 
 ## 4. 分布式爬虫管理平台
 
-随着爬虫数量的增加，如何高效地管理、调度和监控这些任务成为了新的挑战。**Crawlab** 提供了一个跨语言的通用解决方案。
+随着爬虫数量的增加，如何高效地管理、调度和监控这些任务成为了新的挑战。**[Crawlab](https://github.com/crawlab-team/crawlab)** 提供了一个跨语言的通用解决方案。
 
-**Crawlab** 是一个基于 Go 语言开发的分布式爬虫管理平台（WCMP）。它的核心优势在于其强大的兼容性：无论您的爬虫是用 Python、Go、Node.js 还是 Java 编写，都可以轻松接入。通过其直观的 Web 界面，用户可以实时监控节点状态、查看运行日志、配置定时任务并直接导出采集到的数据。
+**[Crawlab](https://github.com/crawlab-team/crawlab)** 是一个基于 Go 语言开发的分布式爬虫管理平台（WCMP）。它的核心优势在于其强大的兼容性：无论您的爬虫是用 Python、Go、Node.js 还是 Java 编写，都可以轻松接入。通过其直观的 Web 界面，用户可以实时监控节点状态、查看运行日志、配置定时任务并直接导出采集到的数据。
 
 ---
 
@@ -45,10 +45,10 @@
 
 | 推荐工具 | 技术栈 | 核心优势 | 最佳适用场景 |
 | :--- | :--- | :--- | :--- |
-| **DrissionPage** | Python | 避开检测，二合一内核 | 动态网页抓取、反爬严重的网站 |
-| **Feapder** | Python | 企业级功能内置，分布式 | 大规模数据采集、长期生产环境 |
-| **MediaCrawler** | Python | 平台深度适配，开箱即用 | 社交媒体（小红书/抖音等）专项分析 |
-| **WebMagic** | Java | 架构优雅，Java 生态友好 | Java 开发者构建垂直爬虫系统 |
-| **Crawlab** | 跨语言 | 可视化管理，分布式调度 | 团队协作、多语言爬虫集群管理 |
+| [DrissionPage](https://github.com/g1879/DrissionPage) | Python | 避开检测，二合一内核 | 动态网页抓取、反爬严重的网站 |
+| [Feapder](https://github.com/Boris-code/feapder) | Python | 企业级功能内置，分布式 | 大规模数据采集、长期生产环境 |
+| [MediaCrawler](https://github.com/NanmiCoder/MediaCrawler) | Python | 平台深度适配，开箱即用 | 社交媒体（小红书/抖音等）专项分析 |
+| [WebMagic](https://github.com/code4craft/webmagic) | Java | 架构优雅，Java 生态友好 | Java 开发者构建垂直爬虫系统 |
+| [Crawlab](https://github.com/crawlab-team/crawlab) | 跨语言 | 可视化管理，分布式调度 | 团队协作、多语言爬虫集群管理 |
 
 在进行网络爬虫开发时，请务必遵守相关法律法规，尊重目标网站的版权与隐私政策，合理控制抓取频率，共同维护良好的网络生态。
